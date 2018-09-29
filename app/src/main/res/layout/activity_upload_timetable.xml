@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadTimetableActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="199dp"
+        android:text="Select file"
+        android:id="@+id/selectFile"/>
+
+    <Button
+        android:id="@+id/uploaadTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="255dp"
+        android:text="Upload Timetable" />
+
+</AbsoluteLayout>

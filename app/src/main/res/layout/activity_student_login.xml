@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="STUDENT LOGIN"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/studentlogin1"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/studentlogin2"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_x="0dp"
+        android:layout_y="51dp"
+        android:hint="Enter Id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_x="7dp"
+        android:layout_y="135dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/studentlogin3"/>
+
+    <Button
+        android:id="@+id/studentlogin4"
+        android:layout_width="146dp"
+        android:layout_height="61dp"
+        android:layout_x="117dp"
+        android:layout_y="217dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/studentlogin5"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_x="105dp"
+        android:layout_y="300dp"
+        android:text="Forget Password"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/studentlogin6"
+        android:layout_width="251dp"
+        android:layout_height="35dp"
+        android:layout_x="66dp"
+        android:layout_y="353dp"
+        android:text="Create new account"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</AbsoluteLayout>

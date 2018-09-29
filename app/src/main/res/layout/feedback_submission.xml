@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="55dp"
+        android:text="Rate It Out of 5!!"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="67dp"
+        android:layout_y="110dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="206dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Comment"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="284dp"
+        android:text="SUBMIT"
+
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="280dp" />
+</AbsoluteLayout>
